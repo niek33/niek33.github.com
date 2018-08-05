@@ -303,7 +303,7 @@ em, i {
 .post h2 {
   margin-top: 28px;
   margin-bottom: 5px;
-  font: 300 24px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 600 24px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111
 }
 
@@ -311,6 +311,7 @@ em, i {
   margin: -5px 0 0 0;
   color: #b2b9be;
   font-size: 13px;
+  font-weight: 300;
   letter-spacing: 1px;
   display: inline-block
 }
