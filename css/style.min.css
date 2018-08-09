@@ -99,7 +99,7 @@ table {
   content: '\e803'
 }
 
-.post h1, h3, h4, h5, p, #post-body ul, #post-list li, #post-body ol, pre {
+.post p, #post-body ul, #post-list li, #post-body ol, pre {
   margin-bottom: 20px
 }
 
@@ -301,9 +301,7 @@ em, i {
   font: 300 40px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.post h2 {
-  margin-top: 28px;
-  margin-bottom: 5px;
+.post h2 { 
   font: 600 24px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111
 }
@@ -331,7 +329,7 @@ em, i {
 #post-list h2 {
   font: normal 17px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #aaa;
-  margin-top: 2px
+  margin-top: 2px;
 }
 
 h3, h4, h5 {
@@ -340,7 +338,8 @@ h3, h4, h5 {
 
 h3 {
   font-size: 20px;
-  font-weight: 400
+  font-weight: 400;
+  margin: 0px 0px 2px 0px;
 }
 
 h4 {
@@ -382,7 +381,7 @@ hr {
   display: block;
   border: 0;
   height: 1px;
-  margin: 40px auto;
+  margin: 30px auto;
   background: #eee
 }
 
